@@ -1,0 +1,95 @@
+/*
+    CSS definitions for the main play area
+*/
+
+.app {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 150%;
+}
+
+.score {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.pcont {
+    text-align: center;
+    font-size: 30pt;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#p1 {
+    float: left;
+}
+
+#p2 {
+    float: right;
+}
+
+.playarea {
+    position: relative;
+    top: 50px;
+}
+
+.playarea {
+    position: relative;
+    top: 50px;
+}
+
+.playtbl {
+    padding-top: 30px;
+    border-spacing: 0;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+.playtbl td {
+    padding: 0;
+}
+
+.grid {
+    text-align: center;
+    font-size: 70pt;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.gv {
+    border-left: 4px solid #000;
+    border-right: 4px solid #000;
+}
+
+.gh {
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+        
+}
+
+.gameover {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    top: 150%;
+    left: 25%;
+    padding-top: 60px;
+    border: 5px solid #96B3FF;
+    border-radius: 40px;
+    color: #000593;
+    font-size: 40pt;
+    background-color: #BFFFC7;
+}
+
+.closebtn {
+    width: 200px;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 32pt;
+    background-color: #96B3FF;
+    border: 3px solid #C8E16F;
+    border-radius: 30px;
+    color: #661100;
+}

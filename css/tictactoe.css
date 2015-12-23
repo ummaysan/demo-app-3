@@ -1,0 +1,69 @@
+/*
+    Main CSS Definitions
+*/
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:18px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.intro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    padding-top: 50px;
+}
+
+.maintitle {
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.ilink {
+    border: 3px solid black;
+    background-color: #D8FFAF;
+    font-size: 36pt;
+    border-radius: 25px;
+    width: 70%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px auto;
+}
+
+.backbtn {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    border: 3px solid black;
+    background-color: #D8FFAF;
+    border-radius: 20px;
+    font-size: 28pt;
+    text-align: center;
+    width: 200px;
+    padding: 15px 0;
+}

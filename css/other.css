@@ -1,0 +1,96 @@
+.statpage {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: 150%;
+}
+
+.optpage {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: 150%;
+}
+
+.creditpage {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: 150%;
+}
+
+.credittext {
+    padding: 150px 60px 0 60px;
+    font-size: 30pt;
+}
+
+.credittext a {
+    color: #055F5E;
+    text-decoration: none;
+}
+
+.stattext {
+    padding: 100px 60px 0 60px;
+    font-size: 28pt;
+    font-weight: bold;
+}
+
+.opttext {
+    padding: 100px 60px 0 60px;
+    font-size: 32pt;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+#uname {
+    font-size: 30pt;
+    width: 300px;
+    height: 1.5em;
+    padding: 5px;
+}
+
+.savebtn {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #858585;
+    width: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    color: #0D005C;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/loading.gif');
+    background-color: rgba(0,0,0,0.3);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.resetbtn {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #858585;
+    width: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    color: #0D005C;
+}
+
+.statstbl {
+    width: 80%;
+    margin: 0 auto 50px auto;
+}
+
+.statstbl td {
+    width: 16%;
+    border: 2px solid black;
+}
+
+#stempty {
+    border-width: 0px;
+}
